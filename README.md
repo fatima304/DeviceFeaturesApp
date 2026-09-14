@@ -1,6 +1,18 @@
-# device_features_app
+# Device Features App
 
-A new Flutter project.
+A Flutter application that progressively integrates native device capabilities including device information, media access, location and maps, biometric authentication, and audio recording.
+
+## Phase 1 — Device Info
+
+Retrieves and displays basic hardware and software information from the device including the device model name and operating system version.
+
+### Permissions
+
+#### Android
+No special permissions are required for the device_info_plus package. Basic device information can be accessed without requesting any permissions.
+
+#### iOS
+No special permissions are required for the device_info_plus package. Basic device information can be accessed without requesting any permissions.
 
 ## Getting Started
 
