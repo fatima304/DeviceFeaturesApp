@@ -1,6 +1,6 @@
+import 'package:device_features_app/features/gallery/presentation/screens/gallery_screen.dart';
 import 'package:flutter/material.dart';
 
-import 'features/device_info/presentation/screens/device_info_screen.dart';
 import 'theme/app_theme.dart';
 
 void main() {
@@ -23,7 +23,7 @@ class DeviceFeaturesApp extends StatelessWidget {
         ),
         useMaterial3: true,
       ),
-      home: const DeviceInfoScreen(),
+      home: const GalleryScreen(),
     );
   }
 }

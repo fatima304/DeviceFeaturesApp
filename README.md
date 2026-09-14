@@ -14,6 +14,19 @@ No special permissions are required for the device_info_plus package. Basic devi
 #### iOS
 No special permissions are required for the device_info_plus package. Basic device information can be accessed without requesting any permissions.
 
+## Phase 2 — Media Access: Image Picker Gallery
+
+Create an in-app gallery that lets the user pick multiple images from their device.
+
+### Permissions
+
+#### Android
+- `READ_MEDIA_IMAGES` - Required for Android 13+ to access images from the device gallery
+- `READ_EXTERNAL_STORAGE` - Required for Android 12 and below to access images from the device gallery
+
+#### iOS
+- `NSPhotoLibraryUsageDescription` - Required to access the device photo library for image selection
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.

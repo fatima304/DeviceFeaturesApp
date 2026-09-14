@@ -6,6 +6,7 @@ import 'package:device_features_app/theme/app_theme.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
+// Main screen for displaying device information
 class DeviceInfoScreen extends StatelessWidget {
   const DeviceInfoScreen({super.key});
 

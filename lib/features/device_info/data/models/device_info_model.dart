@@ -1,5 +1,6 @@
 import 'package:device_info_plus/device_info_plus.dart';
 
+// Model for device information
 class DeviceInfoModel {
   final String modelName;
   final String osVersion;

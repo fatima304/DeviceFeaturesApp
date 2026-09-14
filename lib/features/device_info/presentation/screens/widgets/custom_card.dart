@@ -1,6 +1,7 @@
 import 'package:device_features_app/theme/app_theme.dart';
 import 'package:flutter/material.dart';
 
+// Reusable card widget for displaying device information
 class CustomCard extends StatelessWidget {
   const CustomCard({
     super.key,

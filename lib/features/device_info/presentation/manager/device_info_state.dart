@@ -1,5 +1,6 @@
 import '../../data/models/device_info_model.dart';
 
+// State management for device info screen
 enum DeviceInfoStatus { initial, loading, success, error }
 
 class DeviceInfoState {
