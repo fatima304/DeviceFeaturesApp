@@ -1,4 +1,4 @@
-import 'package:device_features_app/features/gallery/presentation/screens/gallery_screen.dart';
+import 'package:device_features_app/features/audio/presentation/screens/audio_screen.dart';
 import 'package:flutter/material.dart';
 
 import 'theme/app_theme.dart';
@@ -23,7 +23,7 @@ class DeviceFeaturesApp extends StatelessWidget {
         ),
         useMaterial3: true,
       ),
-      home: const GalleryScreen(),
+      home: const AudioScreen(),
     );
   }
 }

@@ -27,6 +27,18 @@ Create an in-app gallery that lets the user pick multiple images from their devi
 #### iOS
 - `NSPhotoLibraryUsageDescription` - Required to access the device photo library for image selection
 
+## Phase 5 — Audio: Record and Playback Voice
+
+Build an audio recorder screen that lets the user record their voice and play it back.
+
+### Permissions
+
+#### Android
+- `RECORD_AUDIO` - Required to access the microphone for audio recording
+
+#### iOS
+- `NSMicrophoneUsageDescription` - Required to access the microphone for audio recording
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
