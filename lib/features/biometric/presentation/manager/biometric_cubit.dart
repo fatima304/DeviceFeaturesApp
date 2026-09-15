@@ -3,11 +3,13 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 
 import 'biometric_state.dart';
 
+// Cubit for managing biometric authentication state
 class BiometricCubit extends Cubit<BiometricState> {
   final BiometricDataSource _dataSource;
 
   BiometricCubit(this._dataSource) : super(const BiometricState());
 
+  // Integration with local_auth package through data source
   Future<void> authenticate() async {
     emit(const BiometricState(status: BiometricStatus.loading));
 

@@ -1,6 +1,7 @@
 import 'package:device_features_app/theme/app_theme.dart';
 import 'package:flutter/material.dart';
 
+// Profile screen displaying user information after successful biometric authentication
 class ProfileScreen extends StatelessWidget {
   const ProfileScreen({super.key});
 

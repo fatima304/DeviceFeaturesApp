@@ -1,3 +1,4 @@
+// State management for biometric authentication
 enum BiometricStatus { initial, loading, success, failure }
 
 class BiometricState {

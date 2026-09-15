@@ -1,11 +1,12 @@
 import 'package:device_features_app/features/biometric/data/data_source/biometric_datasource.dart';
 import 'package:device_features_app/features/biometric/presentation/manager/biometric_cubit.dart';
 import 'package:device_features_app/features/biometric/presentation/manager/biometric_state.dart';
-import 'package:device_features_app/features/biometric/presentation/screens/widgets/profile_screen.dart';
+import 'package:device_features_app/features/biometric/presentation/screens/profile_screen.dart';
 import 'package:device_features_app/theme/app_theme.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
+// Shopping app home screen with biometric authentication for profile access
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
 

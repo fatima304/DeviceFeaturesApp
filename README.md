@@ -27,6 +27,18 @@ Create an in-app gallery that lets the user pick multiple images from their devi
 #### iOS
 - `NSPhotoLibraryUsageDescription` - Required to access the device photo library for image selection
 
+## Phase 4 — Biometric Authentication: Fingerprint Profile Access
+
+Add a secure profile page to the shopping app that requires fingerprint authentication to access.
+
+### Permissions
+
+#### Android
+- `USE_BIOMETRIC` - Required to use fingerprint or face authentication for secure access
+
+#### iOS
+- `NSFaceIDUsageDescription` - Required to use Face ID for secure profile authentication
+
 ## Phase 5 — Audio: Record and Playback Voice
 
 Build an audio recorder screen that lets the user record their voice and play it back.
